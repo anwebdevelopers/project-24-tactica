@@ -1,0 +1,43 @@
+@import "bourbon";
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/subset-MyriadPro-Regular.eot');
+	src: url('../fonts/subset-MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/subset-MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/subset-MyriadPro-Semibold.eot');
+	src: url('../fonts/subset-MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-MyriadPro-Semibold.woff') format('woff'),
+		url('../fonts/subset-MyriadPro-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/subset-MyriadPro-Bold.eot');
+	src: url('../fonts/subset-MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-MyriadPro-Bold.woff') format('woff'),
+		url('../fonts/subset-MyriadPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/subset-MyriadPro-Light.eot');
+	src: url('../fonts/subset-MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-MyriadPro-Light.woff') format('woff'),
+		url('../fonts/subset-MyriadPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+

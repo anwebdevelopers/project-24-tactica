@@ -1,0 +1,92 @@
+@import "bourbon";
+@import "components/vars.scss";
+
+
+.header {
+	min-height: 130vh;
+	padding: 0 0 140px 0;
+	background-image: url(../img/header-bg.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 130vh;
+}
+
+.header__wrapper {
+	@extend .container;
+	position: relative;
+	padding-top: 170px;
+
+}
+
+.header__link {
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	font-size: rem(15px);
+	text-transform: uppercase;
+	font-weight: 500;
+	a {
+		display: inline-block;
+		vertical-align: top;
+		padding: 8px 30px;
+		color: #cc4e41;
+		text-decoration: none;
+		border: 1px solid #cc4e41;
+		transition: color .3s ease, background-color .3s ease;
+		&:hover, &:active {
+			color: #fff;
+			background-color: #cc4e41;
+		}
+	}
+}
+
+
+.header__logo {
+	position: relative;
+	z-index: -1;
+	margin: 0 0 80px 0;
+	text-align: center;
+	img {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 100px;
+	}
+}
+.header__title {
+	position: relative;
+	z-index: -1;
+	margin: 80px 0 20px 0;
+	
+	text-align: center;
+	color: $orange;
+	text-transform: uppercase;
+	h1 {
+		margin: 0;
+		font-size: rem(45px);
+		font-weight: 600;
+
+	}
+}
+.header__text {
+	position: relative;
+	z-index: -1;
+	margin: 20px 0 135px 0;
+	font-size: rem(25px);
+	color: $orange;
+	line-height: 1.3;
+	text-align: center;
+	p {
+		margin: 0;
+	}
+}
+.header__button {
+	position: fixed;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -16px;
+	text-align: center;
+	a {
+		font-size: 26px;
+		@include sprite(arrow_);
+	}
+}

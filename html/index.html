@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Tactica</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	
+	
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style>#preloader{position:fixed;left:0;top:0;bottom:0;right:0;z-index:100;background-color:#fff;}#preloader__img{position:fixed;z-index:101;top:50%;left:50%;transform:translate(-50%,-50%);}#preloader__img img {width:100px;height:130px;}</style>
+	
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "/css/fonts.min.css?ver=1.0.0" );</script>
+	<!-- <script>loadCSS( "/css/header.min.css?ver=1.0.0", false, "all" );</script> -->
+	<script>loadCSS( "/css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compilled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	
+	<!--[if (lte IE 9)]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/ie9style.min.css">
+	<![endif]-->
+</head>
+
+<body>
+
+	<div id="preloader">
+		<div id="preloader__img">
+			<img src="img/logo.svg" alt="#">
+		</div>
+	</div>
+
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__link">
+				<a href="#services">контакты</a>
+			</div>
+			<div class="header__logo">
+				<img src="img/logo.svg" alt="">
+			</div>
+			<div class="header__title">
+				<h1>Считаете, что вы особенный?</h1>
+			</div>
+			<div class="header__text">
+				<p>
+					Мы тоже так считаем. Каждый наш клиент – особенный и нанимает настоящую команду по интернет-маркетингу. А результат работы измеряется количеством и качеством лидов.
+				</p>
+			</div>
+			<div class="header__button">
+				<a href="#problem"></a>
+			</div>
+		</div>
+	</header>
+
+	<section id="problem" class="problem">
+		<div class="problem__wrapper">
+			<div class="problem__img">
+				<img src="img/handstop.svg" alt="">
+			</div>
+			<div class="problem__title">
+				<h2><span>Проблема,</span><br> с которой сталкивались  все наши клиенты.</h2>
+			</div>
+			<div class="problem__text">
+				<p>
+					Большое количество клиентов на каждого специалиста, в ваш проект никто не вникает, отсутствуют личные отношения с командой специалистов. Проекты в агентстве приходят и уходят, клиенты меняются, специалисты у проектов меняется,аккаунты («проект-менеджеры») также сменяют друг друга. 
+				</p>
+				<p>
+					И в этой круговерти никто не несет личную ответственность перед вами, никто лично не бьется над достижением результатов. Никто не задумывается:а довольны ли вы, можно ли гордиться своей работой? При этом клиенты, в начале работ задают вопрос: «Вы точно будете работать, а не просто возьмёте с меня денег?»
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="decision">
+		<div class="decision__wrapper">
+			<div class="decision__img">
+				<img src="img/handup.svg" alt="">
+			</div>
+			<div class="decision__tilte">
+				<h2>Решение</h2>
+			</div>
+			<div class="decision__text">
+				<p>
+					Мы решили запустить Тактику в новом формате. Не играть в корпорацию, агентство. А сделать так, чтобы у каждого нашего клиента была настоящая команда. Которая действительно работает и дает результаты. При этом уровень услуг, технологичность и управление процессами мы сохраняем на должномуровне. 
+				</p>
+				<p>
+					<strong>Вы получаете квалифицированную команду, она небольшая – порядка 10 человек.</strong>
+				</p>
+				<p>
+					С вами работает руководитель проекта – это полноценный специалист, который управляет проектом и внимателен к вашим требованиям. Он технически подкован, что позволяет принимать моментальные решения для большинства вопросов.
+				</p>
+				<p>
+					<b>В команде: </b>SEO-специалист, CPC-специалист, программист, Email-маркетолог, копирайтеры и контент-менеджер, которые хорошо знают вас и ваш проект.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages">
+		<div class="advantages__wrapper">
+			<div class="advantages__title">
+				<h2>Работая с нами,<br>  <span>вы можете быть уверены:</span></h2>
+			</div>
+			<div class="advantages__box">
+				<div class="advantages__item">
+					<div class="advantages__item-icon"><i></i></div>
+					<div class="advantages__item-title">
+						<h4>Лиды</h4>
+					</div>
+					<div class="advantages__item-text">
+						<p>
+							Главный KPI  по вашему  проекту –  количество  и качество  лидов.
+						</p>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<div class="advantages__item-icon"><i></i></div>
+					<div class="advantages__item-title">
+						<h4>обем работы</h4>
+					</div>
+					<div class="advantages__item-text">
+						<p>
+							Команда работает 
+							с небольшим 
+							количеством 
+							проектов. 
+							По каждому 
+							делается большой
+							объем работы.
+						</p>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<div class="advantages__item-icon"><i></i></div>
+					<div class="advantages__item-title">
+						<h4>до конца</h4>
+					</div>
+					<div class="advantages__item-text">
+						<p>
+							Не набираем 
+							новых 
+							клиентов, пока 
+							не завершим 
+							проект 
+							с текущими.
+						</p>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<div class="advantages__item-icon"><i></i></div>
+					<div class="advantages__item-title">
+						<h4>ресурсы</h4>
+					</div>
+					<div class="advantages__item-text">
+						<p>
+							Будем реально 
+							работать. 
+							Гарантируем, 
+							что на ваш 
+							проект выделим 
+							ресурсов 
+							не меньше, чем
+							вы заплатили.
+						</p>
+					</div>
+				</div>
+				<div class="advantages__item">
+					<div class="advantages__item-icon"><i></i></div>
+					<div class="advantages__item-title">
+						<h4>команда</h4>
+					</div>
+					<div class="advantages__item-text">
+						<p>
+							В команде 
+							небольшое 
+							количество 
+							постоянных 
+							участников. 
+							А значит, 
+							у каждого 
+							высокая 
+							квалификация.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="confidence">
+		<div class="confidence__wrapper">
+			<div class="confidence__title">
+				<h2>Почему<br> <span>нам можно доверять</span></h2>
+			</div>
+			<div class="confidence__img">
+				<img src="img/circle.svg" alt="">
+				<a href="#">наш блог</a>
+			</div>
+			<div class="confidence__text">
+				<p>
+					Несмотря на то, что мы работаем в формате небольшой команды, мы придерживаемся определённых технологических процессов, каждый проект проходит по регламенту. У нас большой опыт, за плечами – созданное направление интернет-рекламы в агентстве Реаспект. Это немаленькая и известная организация на федеральном Digital-рынке, сейчас в ней работает 50+ человек. И несмотря на то, что в операционной деятельности Реаспекта мы не участвуем, наш руководитель остается его совладельцем, а обмен опытом и технологиями происходят постоянно. Кстати, 
+					если вы предпочитаете работать с крупным агентством, 
+					а не с небольшой командой, то <a href="#">вам сюда.</a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="reviews">
+		<div class="reviews__wrapper">
+			<div class="reviews__text">
+				<p>
+					Работали с Тактикой больше двух лет. Не врут, что говорят про продажи. 
+					Бывало конечно всякое: иногда ругались друг с другом, не всегда соглашались, однажды 
+					меняли даже руководителя проектов. Но все мы люди, главное – все споры конструктивны 
+					и вносят положительные изменения. Особенно сложно было зимой 2014, когда доллар 
+					подскочил. Пережили, ребята мобилизовались и сделали очень хороший рывок 
+					по нашим продажам.
+				</p>
+			</div>
+			<div class="reviews__signature">
+				<span>Владимир Шарапов,<br> 
+						ген. директор OPTIKADEPO.RU</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="certificate">
+		<div class="certificate__wrapper">
+			<div class="certificate__icon"><i></i></div>
+			<div class="certificate__text">
+				<p>
+					Все наши специалисты проходят обязательную внутреннюю аттестацию, а также сертификацию в Яндекс.Директ, Яндекс.Метрике, сервисах Google AdWords, Google Analytics. Мы являемся агентством Яндекса, ежемесячно обсуждаем наши достижения с офисом Google. Пример: по оценке Google наших результатов во 2кв 2016, Тактика использует на 500% больше ключевых слов, на 1900% больше уточнений и минус-слов, чем среднее агентство нашего уровня. Мы одни из немногих, кто работает по SEO не только с имеющимися на сайте страницами, но и постоянно создаем новые. Так обеспечивается постоянный прирост трафика и качество лидов.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="discuss">
+		<div class="discuss__wrapper">
+			<div class="discuss__text">
+				<p>
+					Не важно, по какой услуге мы будем работать с вами: 
+					команда еженедельно отслеживает выполнение плана 
+					по количеству лидов, а руководитель проекта 
+					вместе с вами оценивает их качество.
+				</p>
+			</div>
+			<div class="discuss__button btn-red">
+				<a href="#">Ну что, попробуем  обсудить ваш проект?</a>
+			</div>
+		</div>
+	</div>
+
+	<section id="services" class="services">
+		<div class="services__wrapper">
+			<div class="services__title">
+				<h2>Про наши услуги</h2>
+			</div>
+			<div class="services__text">
+				<p>Как происходит работа по Поисковому маркетингу</p>
+				<p>Как происходит работа по Контекстному маркетингу</p>
+				<p>Как происходит работа по Email</p>
+			</div>
+			<div class="services__button btn-white">
+				<a href="#">нанять нас</a>
+			</div>
+		</div>
+	</section>
+
+	<div class="contacts">
+		<div class="contacts__phones">
+			<div class="contacts__wrapper">
+				<div class="contacts__phones-box">
+					<div class="contacts__phones-item">
+						<span>Москва:</span>
+						<a href="callto:+74996537678">(499) 653-76-78</a>
+					</div>
+					<div class="contacts__phones-item">
+						<span>Санкт-Петербург:</span>
+						<a href="callto:+78124253347">(812) 425-33-47</a>
+					</div>
+					<div class="contacts__phones-item">
+						<span>Казань:</span>
+						<a href="callto:+78432039278">(843) 203-92-78</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contacts__box">
+			<div class="contacts__wrapper">
+				<div class="contacts__map">
+					<div class="contacts__map-adress">
+						<span>г. Казань, ул. Дементьева, д. 2Б, к. 3</span>
+					</div>
+					<div class="contacts__map-img">
+						<img src="img/map.svg" alt="">
+					</div>
+				</div>
+				<div class="contacts__command">
+					<div class="contacts__command-img">
+						<img src="img/commandimg.svg" alt="">
+					</div>
+					<div class="contacts__command-text">
+						<span>Тактика – Ваша  настоящая команда</span>
+					</div>
+					<div class="contacts__command-social">
+						<div class="contacts__command-social-text">
+							<span>Новости eCommerce и интернет-маркетинга</span>
+						</div>
+						<div class="contacts__command-social-icons">
+							<a class="fb" href="#"></a>
+							<a class="vk" href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__adress">
+				<p>
+					Адрес: г. Казань, ул. Дементьева, д. 2Б <br>
+					Почтовый адрес: 420036 а/я 118, Тактика <br>
+					Офис партнеров: г. Москва, ул. Абрикосовая, 22
+				</p>
+			</div>
+			<div class="footer__agreement">
+				<p>
+					Я даю согласие ООО «Тактика» на обработку всех моих персональных данных, введенные в форму заявки или сообщенные посредством телефонной связи, любыми способами, в том числе воспроизведение, электронное копирование и трансграничную передачу, обезличивание, блокирование, уничтожение, а также вышеуказанную обработку иных моих персональных данных, полученных в результате их обработки, с целью: <br>
+					– оказания услуг и информирования о них; <br>
+					– создания информационных систем персональных данных ООО «Тактика».
+				</p>
+				<p>
+					Указанное согласие дано на неограниченный срок, а в случае его отзыва обработка моих персональных данных должна быть прекращена ООО «Тактика» и/или третьими лицами и данные уничтожены при условии расторжения Договора и полного погашения задолженности по Договору в срок не позднее 1 (одного) года с даты прекращения действия Договора.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>

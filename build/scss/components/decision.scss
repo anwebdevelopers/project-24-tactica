@@ -1,0 +1,43 @@
+.decision {	
+	position: relative;
+	z-index: 0;
+	margin: 0 0 0 0;
+	padding: 0 0 80px 0;
+}
+.decision__wrapper {
+	@extend .container;
+	@extend .clearfix;
+}
+.decision__img {
+	float: left;
+	width: 24%;
+}
+.decision__tilte {
+	float: right;
+	width: 65%;
+	margin: 0 0 35px 0;
+	color: $red;
+	text-transform: uppercase;
+	line-height: 1.2;
+	h2 {
+		
+		margin: 0;
+		font-size: rem(45px);
+
+	}
+
+}
+.decision__text {
+	float: right;
+	width: 65%;
+	font-size: rem(20px);
+	color: $red;
+	font-weight: 300;
+	line-height: 1.3;
+	p {
+		margin: 20px 0;
+	}
+	strong {
+		font-size: rem(25px);
+	}
+}
